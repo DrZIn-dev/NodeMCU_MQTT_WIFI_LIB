@@ -1,10 +1,6 @@
 #include <Arduino.h>
-#include <ESP8266WiFi.h>
-#include <PubSubClient.h>
-#include <WiFiClient.h>
-#include <ArduinoJson.h>
-
-
+#include "WIFI/WIFI.h"
+#include "MACROS/MACROS.h"
 #define WIFI_SSID "MakeEdu"
 #define WIFI_PASS "Hybrid-6Zero7"
 #define CLIENT_ID ""
@@ -16,9 +12,11 @@
 #define PUB_MSG_DATA ""
 #define PUB_SHADOW_DATA ""
 
+MACROS macros;
 void setup()
 {
-  
+  Serial.begin(115200);
+  macros.Sprintln("Hello");
   // put your setup code here, to run once:
 }
 
