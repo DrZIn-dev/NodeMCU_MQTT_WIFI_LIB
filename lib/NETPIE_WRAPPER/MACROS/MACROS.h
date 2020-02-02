@@ -29,6 +29,11 @@ public:
             Serial.print(payload);
         }
     }
+
+    int Sec2MS(int sec)
+    {
+        return sec * 1000;
+    }
 };
 
 MACROS::MACROS(boolean show)

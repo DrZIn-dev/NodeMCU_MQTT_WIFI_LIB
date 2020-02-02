@@ -1,8 +1,7 @@
 #include <Arduino.h>
-#include "WIFI/WIFI.h"
-#include "MACROS/MACROS.h"
-#define WIFI_SSID "MakeEdu"
-#define WIFI_PASS "Hybrid-6Zero7"
+
+#define WIFI_SSID "DrZin"
+#define WIFI_PASS "0985626152a"
 #define CLIENT_ID ""
 #define CLIENT_USERNAME ""
 #define CLIENT_PASSWORD ""
@@ -12,11 +11,9 @@
 #define PUB_MSG_DATA ""
 #define PUB_SHADOW_DATA ""
 
-MACROS macros;
 void setup()
 {
   Serial.begin(115200);
-  macros.Sprintln("Hello");
   // put your setup code here, to run once:
 }
 
