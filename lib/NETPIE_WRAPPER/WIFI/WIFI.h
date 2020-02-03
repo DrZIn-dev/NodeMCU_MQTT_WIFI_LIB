@@ -2,9 +2,15 @@
 #define WIFI_WRAPPER
 #include <Arduino.h>
 #include "MACROS/MACROS.h"
+
 #ifdef ESP8266
 #include <ESP8266WiFi.h>
-#endif
+#endif //ESP8266 WiFi
+
+#ifdef ESP32
+#include <WiFi.h>
+#endif //WiFi
+
 class WIFI : private MACROS
 {
 private:
