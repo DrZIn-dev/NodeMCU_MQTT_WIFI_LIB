@@ -13,7 +13,7 @@ public:
     ~MACROS();
 
     template <typename P>
-    void Sprintln(P payload)
+    void Sprintln(P payload = "")
     {
         if (isShow)
         {
@@ -22,7 +22,7 @@ public:
     }
 
     template <typename P>
-    void Sprint(P payload)
+    void Sprint(P payload = "")
     {
         if (isShow)
         {
