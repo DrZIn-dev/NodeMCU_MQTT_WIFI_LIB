@@ -1,7 +1,7 @@
 #ifndef SECRET_HPP
 #define SECRET_HPP
 
-#define WIFI_SSID "CE_HCRL607"
+#define WIFI_SSID "CE-HCRL607"
 #define WIFI_PASSWORD "Hybrid-6Zero7"
 #define MQTT_SERVER "broker.netpie.io"
 #define MQTT_PORT 1883
